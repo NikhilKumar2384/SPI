@@ -1,4 +1,4 @@
-
+`include "master.sv"
 module slave(miso,mosi,sclk,cs,data_tx_sl,data_rx_sl,reset,mode,done_sl,clk);
   input mosi,sclk,cs,reset,clk;
   input [7:0]data_tx_sl;
